@@ -20,6 +20,7 @@ RUN set -ex; \
 	libkrb5-dev \
 	libpq-dev \
 	libsqlite3-dev \
+ 	dovecot-core \
 	; \
 	\
 	docker-php-ext-configure \
